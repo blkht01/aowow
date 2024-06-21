@@ -746,6 +746,7 @@ define('ITEM_CLASS_MISC',                   15);
 define('ITEM_CLASS_GLYPH',                  16);
 
 // ItemFlags
+define('ITEM_FLAG_MYTHIC',                  0x00000001); // Custom Mythic flag -- Qeme
 define('ITEM_FLAG_CONJURED',                0x00000002);
 define('ITEM_FLAG_OPENABLE',                0x00000004);
 define('ITEM_FLAG_HEROIC',                  0x00000008);

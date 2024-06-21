@@ -13,6 +13,7 @@ var fi_filters = {
         { id: 4,   name: 'bindonuse',           type: 'yn' },
         { id: 133, name: 'bindtoaccount',       type: 'yn' },
         { id: 146, name: 'heroicitem',          type: 'yn' },
+        { id: 178, name: 'mythicitem',          type: 'yn' }, // Custom mythic tag --Qeme
         { id: 107, name: 'effecttext',          type: 'str' },
         { id: 81,  name: 'fitsgemslot',         type: 'gem' },
         { id: 132, name: 'glyphtype',           type: 'glyphtype' },

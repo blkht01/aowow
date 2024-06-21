@@ -432,6 +432,9 @@ class ItemList extends BaseType
             if ($this->curTpl['flags'] & ITEM_FLAG_HEROIC)
                 $data[$this->id]['heroic'] = true;
 
+            if ($this->curTpl['flags'] & ITEM_FLAG_MYTHIC)  // Custom Mythic flag -- Qeme
+            $data[$this->id]['mythic'] = true;
+
             if ($addInfoMask & ITEMINFO_MODEL)
                 if ($_ = $this->getField('displayId'))
                     $data[$this->id]['displayid'] = $_;
@@ -565,6 +568,10 @@ class ItemList extends BaseType
         // heroic tag
         if (($_flags & ITEM_FLAG_HEROIC) && $_quality == ITEM_QUALITY_EPIC)
             $x .= '<br /><span class="q2">'.Lang::item('heroic').'</span>';
+
+        // mythic tag
+        if (($_flags & ITEM_FLAG_MYTHIC) && $_quality == ITEM_QUALITY_EPIC)
+        $x .= '<br /><span class="q2">'.Lang::item('mythic').'</span>';
 
         // requires map (todo: reparse ?_zones for non-conflicting data; generate Link to zone)
         if ($_ = $this->curTpl['map'])
@@ -1676,6 +1683,7 @@ class ItemList extends BaseType
             'subclass'    => $this->curTpl['subClass'],
             'subsubclass' => $this->curTpl['subSubClass'],
             'heroic'      => ($this->curTpl['flags'] & 0x8) >> 3,
+            'mythic'      => ($this->curTpl['flags'] & 0x1) >> 3,
             'side'        => $this->curTpl['flagsExtra'] & 0x3 ? 3 - ($this->curTpl['flagsExtra'] & 0x3) : Game::sideByRaceMask($this->curTpl['requiredRace']),
             'slot'        => $this->curTpl['slot'],
             'slotbak'     => $this->curTpl['slotBak'],
@@ -1984,6 +1992,7 @@ class ItemListFilter extends Filter
         172 => [FILTER_CR_CALLBACK,  'cbObtainedBy',           null,                    null          ], // rewardedbyachievement [yn]
         176 => [FILTER_CR_STAFFFLAG, 'flags'                                                          ], // flags
         177 => [FILTER_CR_STAFFFLAG, 'flagsExtra'                                                     ], // flags2
+        178 => [FILTER_CR_FLAG,      'flags',                  ITEM_FLAG_MYTHIC                       ], // custom mythic flag -- Qeme
     );
 
     // fieldId => [checkType, checkValue[, fieldIsArray]]

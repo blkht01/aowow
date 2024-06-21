@@ -1732,6 +1732,7 @@ $lang = array(
         'locked'        => "Verschlossen",
         'ratingString'  => "%s&nbsp;@&nbsp;L%s",
         'heroic'        => "Heroisch",
+        'mythic'        => "Mythisch",
         'startQuest'    => "Dieser Gegenstand startet eine Quest",
         'bagSlotString' => '%1$d Platz %2$s',
         'fap'           => "Angriffskraft in Tiergestalt",

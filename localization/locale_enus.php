@@ -1732,6 +1732,7 @@ $lang = array(
         'locked'        => "Locked",                        // LOCKED
         'ratingString'  => "%s&nbsp;@&nbsp;L%s",
         'heroic'        => "Heroic",                        // ITEM_HEROIC
+        'mythic'        => "Mythic",                        // ITEM_HEROIC
         'startQuest'    => "This Item Begins a Quest",      // ITEM_STARTS_QUEST
         'bagSlotString' => "%d Slot %s",                    // CONTAINER_SLOTS
         'fap'           => "Feral Attack Power",

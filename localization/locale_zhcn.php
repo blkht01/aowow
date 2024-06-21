@@ -1731,6 +1731,7 @@ $lang = array(
         'locked'        => "已锁",
         'ratingString'  => "%s&nbsp;@&nbsp;L%s",
         'heroic'        => "英雄级别",
+        'mythic'        => "史诗级别",
         'startQuest'    => "该物品将触发一个任务",
         'bagSlotString' => "%d格%s",
         'fap'           => "在猎豹、熊、巨熊和枭兽形态下的攻击强度",
