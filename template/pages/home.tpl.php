@@ -82,13 +82,13 @@ endif;
 
     <div class="footer">
         <div class="footer-links linklist">
-            <a href="?aboutus"><?=Lang::main('aboutUs'); ?></a>|<a href="https://github.com/azerothcore/aowow" target="_blank">Github</a>|<a href="#" id="footer-links-language"><?=Lang::main('language'); ?></a>
+            <a href="?aboutus"><?=Lang::main('aboutUs'); ?></a>|<a href="https://wow.classic-plus.com/" target="_blank">Home</a>|<a href="#" id="footer-links-language"><?=Lang::main('language'); ?></a>
         </div>
         <div class="footer-copy">
-            &#12484; 2023 Aowow<br />
+            &#12484; 2024 Aowow - WoW Classic Plus<br />
             rev. <?=AOWOW_REVISION; ?>
             <br>
-            AzerothCore rev: <a href="https://github.com/azerothcore/azerothcore-wotlk/commit/b874760efee9a1f31a121effb1a56788a7d82e34">b874760</a>
+            AzerothCore rev: <a href="https://github.com/blkht01/azerothcore-wotlk/commit/5ff92e746e7a258c008f7fad26ef42a971aa03eb">5ff92e7</a>
         </div>
     </div>
 

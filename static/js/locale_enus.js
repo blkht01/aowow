@@ -17,7 +17,8 @@ var l_reputation_names = [
     'Test 2',
     "Guide approved",
     "Moderator Warning",
-    "Moderator Suspension"
+    "Moderator Suspension",
+    "Manual Adjustment"
 ];
 
 var l_guide_categories = [
@@ -4930,4 +4931,22 @@ var LANG = {
     ls_onImmune:          'Immunity against Spell is applied or cleared',
 
     /* AoWoW: end custom */
+
+    /* Classic-Plus: start account dashboard */
+    descUpdateSuccess:      'Your description has been updated successfully.',
+    publicDesc:             'Public Description',
+    claimChars:             'Claim Characters',
+    changeAvatar:           'Change Avatar',
+    pass:                   'Change Password',
+    name:                   'Change Nickname',
+    email:                  'Change Email',
+    viewPublicDesc:         'View Public Description',
+    submit:                 'Submit',
+    Change_password:        'Change Password',
+    Current_password:       'Current Password',
+    New_password:           'New Password',
+    Confirm_new_password:   'Confirm New Password',
+    colon:                  ':',
+    /* Classic-Plus: end account dashboard */
+    
 };

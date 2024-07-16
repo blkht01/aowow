@@ -87,6 +87,7 @@ define('SITEREP_ACTION_BAD_REPORT',         10);            // Report declined
 define('SITEREP_ACTION_ARTICLE',            16);            // Guide approved (article approved)
 define('SITEREP_ACTION_USER_WARNED',        17);            // Moderator Warning
 define('SITEREP_ACTION_USER_SUSPENDED',     18);            // Moderator Suspension
+define('SITEREP_ACTION_MANUAL_ADJUST',      19);            // Manual adjustment
 
 // config flags
 define('CON_FLAG_TYPE_INT',                 0x01);          // validate with intVal()
