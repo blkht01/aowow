@@ -1012,15 +1012,15 @@ var mn_reputation = [
     [17, "AoWoW Premium", "?privilege=17"]
 ];
 var mn_community = [
-    [3,"Foros","http://forums.battle.net",null,{tinyIcon: g_staticUrl + "/images/icons/forum.png"}],
-    [7,"Blog","http://worldpress.com",null,{tinyIcon: g_staticUrl + "/images/icons/blog.png"}],
-    [4,"Canal de IRC","http://webchat.quakenet.org/",null,{tinyIcon: g_staticUrl + "/images/icons/irc.png"}],
-    [,"Comunidad"],
-    [10, "Reputación en la web", "?reputation", mn_reputation],
-    [11, "Usuarios más populares", "?top-users"],
-    [,"Social"],
-    [6,"Página de Facebook","http://facebook.com",null,{tinyIcon: g_staticUrl + "/images/icons/facebook.png"}],
-    [5,"Página de Twitter","http://twitter.com",null,{tinyIcon: g_staticUrl + "/images/icons/twitter.png"}]
+    [3,"Forum","http://classic-plus.com/discord",null,{tinyIcon: g_staticUrl + "/images/icons/forum.png"}],
+    [7,"Website","http://wow.classic-plus.com",null,{tinyIcon: g_staticUrl + "/images/icons/blog.png"}],
+    [4,"Discord","http://classic-plus.com/discord",null,{tinyIcon: g_staticUrl + "/images/icons/irc.png"}],
+    [,"Community"],
+    [10,"Benutzerruf", "?reputation", mn_reputation],
+    [11,"Hilfreichste Benutzer", "?top-users"],
+    [,"Soziales"],
+    [6,"Facebook-Seite","http://classic-plus.com/discord",null,{tinyIcon: g_staticUrl + "/images/icons/facebook.png"}],
+    [5,"Twitter-Seite","http://classic-plus.com/discord",null,{tinyIcon: g_staticUrl + "/images/icons/twitter.png"}]
 ];
 var mn_more = [
     [,"Todo sobre AoWoW"],
